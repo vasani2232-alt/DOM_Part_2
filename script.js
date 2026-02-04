@@ -31,12 +31,24 @@
 // //div.before(newBtn); //Adds before the node (outside)
 // p.after(newBtn); //Adds after the node (outside)
 
-let newHeading = document.createElement("h1");
-newHeading.innerHTML = "<i>Hi, I am new</i>";
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>Hi, I am new</i>";
 
-document.querySelector("body").prepend(newHeading);
+// document.querySelector("body").prepend(newHeading);
 
+// let para = document.querySelector("p");
+// para.remove();
+
+// newHeading.remove();
+
+//Practice Que1
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click Me!";
+
+newBtn.style.color = "white";
+newBtn.style.backgroundColor = "red";
+
+document.querySelector("body").prepend(newBtn);
+
+//Practice Que2
 let para = document.querySelector("p");
-para.remove();
-
-newHeading.remove();
